@@ -1,4 +1,4 @@
-console.log("App carregado");
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
