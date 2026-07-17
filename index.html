@@ -24,9 +24,11 @@
   </head>
   <body class="bg-slate-100 overflow-x-hidden select-none">
     <div id="root"></div>
-<script type="module" src="/main.tsx"></script>
 
-    <!-- O SCRIPT DE ATIVAÇÃO ENTRA EXATAMENTE AQUI: -->
+    <!-- CAMINHO CORRIGIDO PARA A PASTA SRC -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- O SCRIPT DE ATIVAÇÃO -->
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
@@ -38,4 +40,3 @@
     </script>
   </body>
 </html>
-
