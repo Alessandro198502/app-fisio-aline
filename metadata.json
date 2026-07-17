@@ -1,0 +1,17 @@
+{
+  "name": "Fisio Aline - Estética Profissional",
+  "short_name": "FisioAline",
+  "description": "Aplicativo pessoal para protocolos de estética.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf3f0",
+  "theme_color": "#faf3f0",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 180 180'><rect width='100%25' height='100%25' fill='%23faf3f0'/><circle cx='90' cy='90' r='55' fill='none' stroke='%23dfaba0' stroke-width='6'/><path d='M90 50 L90 130 M50 90 L130 90' stroke='%23dfaba0' stroke-width='6' stroke-linecap='round'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
