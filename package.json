@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/server.js"
+ "scripts": {
+  "build": "tsc && vite build",
+  "start": "node dist/server.js"
+},
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
