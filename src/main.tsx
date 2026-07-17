@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css'; // Certifique-se de que o nome do arquivo CSS seja esse mesmo
 
 // Criamos uma referência ao elemento root de forma segura
 const rootElement = document.getElementById('root');
