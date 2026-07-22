@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-mono: 'Fira Code', monospace;
+  
+  --color-brand-beige: #faf3f0;
+  --color-brand-rose: #dfaba0;
+  --color-brand-dark: #2c2523;
+  --color-brand-accent: #e5989b;
+}
+
+/* Custom Scrollbar and Web Portal Styling */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #fcf6f4;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  color: #2c2523;
+}
+
+/* Custom Web Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1e7e4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dfaba0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c59389;
+}
+
+/* Hide scrollbars but allow scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom transitions and glassmorphism */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.iphone-frame {
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25), 
+              inset 0px 0px 0px 4px rgba(255, 255, 255, 0.3);
+}
