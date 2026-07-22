@@ -1,0 +1,6 @@
+{
+  "name": "Fisio Aline",
+  "description": "Aplicativo móvel completo para gestão de consultório de fisioterapia estética, agendamentos, fichas de pacientes, controle de procedimentos e evolução fotográfica.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
