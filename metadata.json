@@ -1,0 +1,6 @@
+{
+  "name": "Dra. Aline Franchi Modesto - Fisioterapia Dermatofuncional",
+  "description": "Plataforma privativa e exclusiva da Dra. Aline Franchi Modesto para gestão clínica de pacientes, agendamentos, evolução fotográfica antes e depois e relatórios de procedimentos.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
